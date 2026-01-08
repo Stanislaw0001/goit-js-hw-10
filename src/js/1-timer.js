@@ -53,7 +53,7 @@ startBtn.addEventListener("click", () => {
       clearInterval(timerId);
       updateTimer(0);
 
-      input.disabled = false;
+      dateTimerPicker.disabled = false;
       return;
     }
 
